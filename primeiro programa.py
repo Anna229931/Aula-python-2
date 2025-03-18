@@ -20,7 +20,7 @@ print()
 # print(soma)
 print()
 #int = inteiro, float = decimal
-#para diminuir o número de casas decimais: print("o número com duas casas ecimais é{número:.2f}.")
+#print(f"O número com duas casas decimais é {numero:.2f}.")
 num1 = float(input("Número 1 = "))
 num2 = float(input("Número 2 = "))
 num3 = float(input("Número 3 = "))
