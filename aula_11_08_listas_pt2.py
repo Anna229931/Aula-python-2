@@ -45,7 +45,7 @@ while True:
         break
     nova_lista_alunos.append(novo_aluno)
 
-#atualização_lista_aluunos = lista_alunos + nova_lista_alunos
+#atualização_lista_alunos = lista_alunos + nova_lista_alunos
 atualização_lista_alunos = []
 atualização_lista_alunos.extend(lista_alunos + nova_lista_alunos)
 print(atualização_lista_alunos)
