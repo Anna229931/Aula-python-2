@@ -48,4 +48,5 @@ while True:
 #atualização_lista_alunos = lista_alunos + nova_lista_alunos
 atualização_lista_alunos = []
 atualização_lista_alunos.extend(lista_alunos + nova_lista_alunos)
+atualização_lista_alunos.sort()
 print(atualização_lista_alunos)

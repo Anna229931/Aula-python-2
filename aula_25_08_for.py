@@ -36,6 +36,6 @@
 #         minimo = e
 # print(f"maximo: {maximo}, minimo: {minimo}")
 
-L = [1,2,3,4,5,6,7,8,9,10]
-print(f"Máximo: {max(L)}, Mínimo: {min(L)}")
+#L = [1,2,3,4,5,6,7,8,9,10]
+#print(f"Máximo: {max(L)}, Mínimo: {min(L)}")
 
