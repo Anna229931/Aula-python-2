@@ -1,18 +1,27 @@
-# frase = "Hello World"
-# print(len(frase))
-# print(frase[0])
-# print(frase[-1])
+# frase = "Hello,World,!"
+# print(frase)
+# print(frase.startswith("Hello World!"))
+# print(frase.endswith("World!"))
+# print("o" in frase)
+# print(frase.count("o"))
+# print(frase.count("Hello"))
+# print(frase.find("Hello"))
+# print(frase.center(50, "-"))
 #
-# string1 = "Hello"
-# string2 = "World"
-#  print(string1+ " " +string2)
-# print(string1,string2)
-# string3 = "!"
-# print(string1, string2, string3 *3)
+# frase_quebrada = (frase.split(","))
+# print(frase_quebrada)
+#
+# frase_nova = (frase.replace("World", "mundo"))
+# print(frase_nova)
 
-# frase = "Hello World"
-# print(frase[0:6])
-# print(frase[6:])
+print("Hello World!", end="\n\n")
+print("Olá Mundo!")
 
-frase = "Hello World"
-print(type(frase))
+print("Hello", "World", "!")
+
+print("Hello", "World", sep="")
+print("Hello", "World", sep=",")
+print("Hello", "World", sep=",", end=",")
+
+
+
